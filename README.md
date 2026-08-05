@@ -20,7 +20,7 @@ Painel web desenvolvido em **React** e **Vite** para consulta de condições met
 
 ## 🌐 Acesso Online
 *(Assim que fizer o deploy na Vercel, cole o seu link aqui)*  
-🔗 [https://painel-meterologico.vercel.app]/(#)
+🔗 https://painel-meterologico.vercel.app
 
 ---
 Desenvolvido por **Douglas Rufino**.

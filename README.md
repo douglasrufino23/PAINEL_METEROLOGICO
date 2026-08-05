@@ -1,3 +1,4 @@
+
 # 🌤️ Painel Meteorológico
 
 Painel web desenvolvido em **React** e **Vite** para consulta de condições meteorológicas em tempo real e previsão para os próximos dias, consumindo dados da API do OpenWeatherMap.
@@ -23,3 +24,7 @@ Painel web desenvolvido em **React** e **Vite** para consulta de condições met
 
 ---
 Desenvolvido por **Douglas Rufino**.
+=======
+# PAINEL_METEROLOGICO
+Painel meteorológico desenvolvido em React e Vite para consulta de clima em tempo real e previsão de próximos dias utilizando OpenWeatherMap API.
+>>>>>>> c53286976899ec16e68403ee49a8771324260060

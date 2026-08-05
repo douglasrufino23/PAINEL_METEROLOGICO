@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>PAINEL</h1>
+        <h1>PAINEL METEROLÓGICO</h1>
         <div className='div-alterar'>
           {cidades.map((cidade, index) => (
             <div key={index}>
@@ -90,6 +90,13 @@ function App() {
         </section>
 
       </main>
+      <footer style={{ textAlign: 'center', padding: '20px', marginTop: '40px', backgroundColor: 'rgb(209, 212, 212)' }}>
+  <p style={{ fontWeight: '600', color: 'rgb(54, 84, 119)' }}>Painel Meteorológico — Desenvolvido por Douglas Rufino</p>
+  <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', marginTop: '10px' }}>
+    <a href="https://github.com/douglasrufino23" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://www.linkedin.com/in/douglas-rufino-431464394/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </div>
+</footer>
     </>
   )
 }

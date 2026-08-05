@@ -14,7 +14,7 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px;
+  margin:50px;
   gap: 5px;
   justify-content: space-around;
 

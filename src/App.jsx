@@ -8,8 +8,8 @@ import { usePrevisoes } from './components/usePrevisoes';
 function App() { 
   const [cidades, setCidades] = useState([
     "São José do Rio Preto",
-    "Nova Granada",
-    "Novo Horizonte"
+    "São Paulo",
+    "Rio de Janeiro"
   ])
   
   const cordRP = useClima(cidades[0]); const corRP = usePrevisoes(cidades[0]); 

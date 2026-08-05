@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(182, 184, 181);
+  
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  gap: 5px;
+  justify-content: space-around;
+
+  
+  
+  
+  
+}
+
+header {
+  background-color: rgb(209, 212, 212);
+  text-align: center;
+  padding: 50px 10px 8px;
+}
+
+header h1 {
+  color: rgb(54, 84, 119);
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.conteiner_temp {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 5px;
+  
+  
+}
+.card_temp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 15px;
+  border: 1px solid gray;
+  padding: 40px 10px;
+  text-align: center;
+  background-color: rgb(209, 212, 212);
+  border-radius: 10px;
+  font-weight: 600;
+  align-items: end;
+}
+
+.mapa {
+  width: 800px;
+  display: grid;
+  gap: 25px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 30px 0px 80px;
+  background-color: azure;
+  
+  
+}
+
+.alertas {
+  padding: 30px 0;
+  border: 2px solid gray;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 800px;
+  background-color: azure;
+  
+  
+}
+
+.conteiner_alertas {
+  justify-content: space-around;
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.content_alertas {
+  background-color: rgb(209, 212, 212);
+  display: grid;
+  width: 200px;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+
+  
+}
+
+.btn-editar {
+  position: absolute;
+  top: 10px;
+  padding: 3px;
+  
+}
+
+.cidade-editar {
+  display: flex;
+  gap: 5px;
+  text-transform: capitalize;
+}
+
+.div-alterar {
+  display: flex;
+  gap: 5px;
+  
+}
+
+.div-alterar p {
+  display: flex;
+  align-items: center;
+}
+
+.div-alterar button {
+  padding: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.div-alterar div {
+  display: flex;
+  gap: 5px;
+  
+}
+
+hr {
+  width: 3px;
+  background-color: black;
+  
+}
+
+.previsao {
+  display: flex;
+  background-color: azure;
+  width: 800px;
+  border-radius: 15px;
+  border: 2px solid gray;
+  padding: 30px 30px 80px;
+}
+
+.previsao {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.mapa, .alertas, .previsao {
+  width: 100% !important;
+  max-width: 800px !important; /* Nunca passa de 800px em telas grandes, mas encolhe em telas menores */
+  margin: 0 auto;   /* Centraliza o bloco na página */
+}
+
+

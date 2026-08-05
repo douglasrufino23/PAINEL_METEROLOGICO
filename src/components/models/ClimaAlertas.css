@@ -1,0 +1,49 @@
+.card_alertas {
+    display: grid;
+    text-align: center;
+    gap: 5px;
+    
+    
+
+    
+    
+
+}
+
+.a {
+    background-color: rgb(122, 200, 231);
+    font: bolder 19px Counter;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.b {
+    background-color: rgb(160, 235, 153);
+    font: bolder 19px Counter;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.c {
+    background-color: rgb(226, 140, 140);
+    font: bolder 19px Counter;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

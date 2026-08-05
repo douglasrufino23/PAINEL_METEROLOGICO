@@ -1,0 +1,23 @@
+
+
+.conteiner-previsoes {
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+}
+
+.content-previsoes {
+    display: grid;
+    gap: 5PX;
+
+}
+
+
+p {
+    text-align: center;
+}
+
+div {
+    display: grid;
+    gap: 15px;
+}

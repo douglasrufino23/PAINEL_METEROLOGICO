@@ -19,7 +19,7 @@ Painel web desenvolvido em **React** e **Vite** para consulta de condições met
 - Possibilidade de alterar e customizar as cidades monitoradas.
 
 ## 🌐 Acesso Online
-*(Assim que fizer o deploy na Vercel, cole o seu link aqui)*  
+
 🔗 https://painel-meterologico.vercel.app
 
 ---
@@ -27,4 +27,4 @@ Desenvolvido por **Douglas Rufino**.
 =======
 # PAINEL_METEROLOGICO
 Painel meteorológico desenvolvido em React e Vite para consulta de clima em tempo real e previsão de próximos dias utilizando OpenWeatherMap API.
->>>>>>> c53286976899ec16e68403ee49a8771324260060
+

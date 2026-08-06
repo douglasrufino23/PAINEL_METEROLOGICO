@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>PAINEL METEROLÓGICO</h1>
+        <h1>PAINEL METEOROLÓGICO</h1>
         <div className='div-alterar'>
           {cidades.map((cidade, index) => (
             <div key={index}>
